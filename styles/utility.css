@@ -19,6 +19,7 @@
     --max-width: 375px;
     width: min(var(--max-width), 100% - var(--px-base) * 2);
     margin-inline: auto;
+    border: 1px solid black;
 }
 
 .even-columns {
@@ -46,7 +47,7 @@
 
 @media (width >= 80em) {
     .container {
-        max-width: 80rem;
+        --max-width: 80rem;
     }
 
     .desktop-only {
@@ -60,7 +61,7 @@
 
 @media (width >= 120em) {
     .container {
-        max-width: 120rem;
+        --max-width: 120rem;
     }
     .desktop-only {
         display: initial;
@@ -73,7 +74,7 @@
 
 @media (width >= 67.5em) {
     .container {
-        max-width: 67.5rem;
+        --max-width: 67.5rem;
     }
     .desktop-only {
         display: initial;

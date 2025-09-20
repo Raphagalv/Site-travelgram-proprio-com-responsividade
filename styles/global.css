@@ -70,3 +70,49 @@ a {
     text-decoration: none;
     color: inherit;
 }
+
+a:hover {
+    background-color: var(--brand-color);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+@media (width >= 80em) {
+    :root {
+        --fs-sm: 0.750rem;
+        --fs-md: 0.875rem;
+        --fs-title: 2rem;
+    
+        --py-sm: 1.25rem;
+        --py-base: 1.5rem;
+        --py-lg: 2rem;
+        --px-base: 2rem;
+    }
+}
+
+@media (width >= 120em) {
+    :root {
+        --fs-sm: 0.750rem;
+        --fs-md: 0.875rem;
+        --fs-title: 2rem;
+    
+        --py-sm: 1.25rem;
+        --py-base: 1.5rem;
+        --py-lg: 2rem;
+        --px-base: 2rem;
+    }
+}
+
+@media (width >= 67.5em) {
+    :root {
+        --fs-sm: 0.750rem;
+        --fs-md: 0.875rem;
+        --fs-title: 2rem;
+    
+        --py-sm: 1.25rem;
+        --py-base: 1.5rem;
+        --py-lg: 2rem;
+        --px-base: 2rem;
+    }
+}

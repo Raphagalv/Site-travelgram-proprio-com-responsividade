@@ -5,7 +5,7 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Travelgram</title>
@@ -19,13 +19,18 @@
 <body>
     <header>
         <div class="container px-base py-base">
-            <nav>
+            <nav class="flex items-center gap-1">
                 <img src="assets/logo/Logo.svg" alt="">
-                <a href="#">
-                    <img src="assets/icons/" alt="">
-                </a>
-                <a href="#profile">Explorar</a>
-                <a href="#photos">Minhas viagens</a>
+
+                <div class="flex gap-1 items-center">
+                    <a href="#" class="lupa">
+                        <img src="assets/icons/Lupa.svg" alt="">
+                    </a>
+                    <a href="#profile" class="desktop-only">Explorar</a>
+                    <a href="#photos" class="desktop-only">Minhas viagens</a>
+                    <img src="assets/Profile-travelgram.jpeg" alt="" class="perfil">
+                </div>
+
             </nav>
         </div>
     </header>

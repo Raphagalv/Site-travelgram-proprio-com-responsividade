@@ -1,0 +1,20 @@
+header nav {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lupa img {
+    transition: 0,3s;
+}
+
+.lupa:hover img {
+    content: url(../assets/icons/Lupa-hover.svg);
+}
+
+.perfil {
+    width: 2.5rem;
+    height: 2.5rem;
+
+    border-radius: 50%;
+    object-fit: cover;
+}
