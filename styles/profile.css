@@ -1,0 +1,136 @@
+#profile {
+
+    background-color: var(--surface-color);
+
+    & img {
+        width: 7.5rem;
+        height: 7.5rem;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+
+    .logos {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+
+    .flex {
+        padding-block: 1rem;
+    }
+
+}
+
+
+@media (width >= 80em) {
+    #profile {
+
+        & img {
+            width: 10rem;
+            height: 10rem;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+        
+
+        .logos {
+            width: 2rem;
+            height: 2rem;
+        }
+
+        .flex {
+            padding-block: 1.5rem;
+        }
+
+        .profile-desktop {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 1rem;
+        }        
+    }
+
+    #profile h1 {
+        font-size: 3rem;
+    }
+
+    #profile p {
+        font-size: 1.125rem;
+    }
+}
+
+@media (width >= 120em) {
+        #profile {
+
+        & img {
+            width: 12rem;
+            height: 12rem;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+        
+
+        .logos {
+            width: 2.5rem;
+            height: 2.5rem;
+        }
+
+        .flex {
+            padding-block: 1.5rem;
+        }
+
+        .profile-desktop {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 1rem;
+        }        
+    }
+
+    #profile h1 {
+        font-size: 3.5rem;
+    }
+
+    #profile p {
+        font-size: 1.4rem;
+    }
+}
+
+
+@media (width >= 67.5em) {
+    
+
+    #profile {
+
+        & img {
+            width: 10rem;
+            height: 10rem;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+        
+
+        .logos {
+            width: 2rem;
+            height: 2rem;
+        }
+
+        .flex {
+            padding-block: 1.5rem;
+        }
+
+        .profile-desktop {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 1rem;
+        }        
+    }
+
+    #profile h1 {
+        font-size: 3rem;
+    }
+
+    #profile p {
+        font-size: 1.125rem;
+    }
+}
