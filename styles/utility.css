@@ -80,7 +80,7 @@
     }
 }
 
-@media (width >= 67.5em) {
+@media (min-width >= 67.5em) {
     .container {
         --max-width: 67.5rem;
     }
