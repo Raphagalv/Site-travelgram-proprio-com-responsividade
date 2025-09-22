@@ -106,7 +106,7 @@ a:hover {
     }
 }
 
-@media (width >= 67.5em) {
+@media (min-width: 67.5em) {
     :root {
         --fs-sm: 0.750rem;
         --fs-md: 0.875rem;

@@ -53,7 +53,7 @@
 }
 
 
-@media (width >=67.5em) {
+@media (min-width: 67.5em) {
         #photos {
         margin-block: 1.5rem;
 
